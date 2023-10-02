@@ -167,6 +167,15 @@ print(y, y + 1, y * 2, y ** 2) # Prints "2.5 3.5 5.0 6.25"
 
 For more details, see [this helpful tutorial](https://pythonnumericalmethods.berkeley.edu/notebooks/chapter02.01-Variables-and-Assignment.html).
 
+#### Operators in Python
+| Operators |   |
+| --- | --- |
+| Comparison | ```  '<',   '<=',   '==',   '!=',   '>=',   '>', ``` | 
+| or their wrappers | ``` '.lt()',   '.le()',   'eq()',   '.ne()',   '.ge()',   '.gt()' ```|
+| Conditionals | ` & (and)`,  `\| (or)`  |   
+
+
+
 #### Data Structures.
 
 By default Python has several objects to store data: lists, dictionaries, sets, and tuples.
@@ -247,6 +256,9 @@ print(d.get('monkey', 'N/A'))  # Get an element with a default; prints "N/A"
 print(d.get('fish', 'N/A'))    # Get an element with a default; prints "wet"
 del d['fish']         # Remove an element from a dictionary
 print(d.get('fish', 'N/A')) # "fish" is no longer a key; prints "N/A"
+mydict.keys()          # creates an object in datatype dict_keys with all keys in the dictionary
+key_list = list(mydict.keys()) #creates a list of keys in the dictionary
+values_list = list(mydict.values()) #creates a list of values in the dictionary
 ```
 
 #### Loops
@@ -263,17 +275,45 @@ for animal in animals:
 # Prints "cat", "dog", "monkey", each on its own line.
 
 nums = [0, 1, 2, 3, 4]
-squares = [x ** 2 for x in nums]
+squares = []
+for num in nums:
+  square = num ** 2
+  squares.append(square)
+```
+
+We can also use list compreghension to execute the same for loop seen above:
+
+```
+nums = [0, 1, 2, 3, 4]
+squares = [num ** 2 for num in nums]
 print(squares)   # Prints [0, 1, 4, 9, 16]
 ```
-Loop or iterate over the keys in a dictionary.
+
+We can also generate the sqaures for all numbers from 0-4 using `range()`:
+
+```
+squares = [x ** 2 for x in range(5)]
+print(squares)   # Prints [0, 1, 4, 9, 16]
+```
+
+Loop or iterate over the keys in a dictionary:
 ```
 d = {'person': 2, 'cat': 4, 'spider': 8}
 for animal in d:
     legs = d[animal]
-    print('A %s has %d legs' % (animal, legs))
+    print(f'A {animal} has {legs} legs')
 # Prints "A person has 2 legs", "A cat has 4 legs", "A spider has 8 legs"
 ```
+
+Loop or iterate over the items in a dictionary, while accessing both keys and values:
+
+```
+d = {'person': 2, 'cat': 4, 'spider': 8}
+for key, value in d.items():
+  print(f'key: {key} \n value: {value}')
+```
+
+
 [**Python loops**]([https://docs.python.org/3/tutorial/controlflow.html#defining-functions](https://wiki.python.org/moin/ForLoop))
 
 ***
@@ -343,9 +383,21 @@ d = np.eye(2)         # Create a 2x2 identity matrix
 print(d)              # Prints "[[ 1.  0.]
                       #          [ 0.  1.]]"
 
-e = np.random.random((2,2))  # Create an array filled with random values (0,1)
+e = np.random.random((2,2))  # Create an array filled with random values between 0 and 1.
+                             # These numbers hsow a uniform distribution
 print(e)                     # If run many times will give different results
 
+```
+
+#### Integer array indexing 
+```
+import numpy as np
+
+a = np.array([[1,2], [3, 4], [5, 6]])
+
+# An example of integer array indexing.
+print(np.array([a[0, 0], a[1, 1], a[2, 0]]))  # Prints "[1 4 5]"
+print(np.array([a[0, 1], a[0, 1]]))  # Prints "[2 2]"
 ```
 
 Slicing can also be used for arrays similarly as it was used for lists.
@@ -363,30 +415,19 @@ a = np.array([[1,2,3,4], [5,6,7,8], [9,10,11,12]])
 # [[2 3]
 #  [6 7]]
 b = a[:2, 1:3]
-
-#### Array indexing
-
+```
 Numpy offers several ways to index into arrays.
-
+```
 # A slice of an array is a view into the same data, so modifying it
 # will modify the original array.
+a = np.array([[1,2,3,4], [5,6,7,8], [9,10,11,12]])
+b = a[:2, 1:3]
 print(a[0, 1])   # Prints "2"
 b[0, 0] = 77     # b[0, 0] is the same piece of data as a[0, 1]
 print(a[0, 1])   # Prints "77"
 ```
 
-Integer array indexing 
-```
-import numpy as np
-
-a = np.array([[1,2], [3, 4], [5, 6]])
-
-# An example of integer array indexing.
-print(np.array([a[0, 0], a[1, 1], a[2, 0]]))  # Prints "[1 4 5]"
-print(np.array([a[0, 1], a[0, 1]]))  # Prints "[2 2]"
-```
-
-#### Datatypes
+#### Numpy Datatypes
 
 Every numpy array is a grid of elements of the same type.
 
@@ -394,13 +435,13 @@ Every numpy array is a grid of elements of the same type.
 import numpy as np
 
 x = np.array([1, 2])   # Let numpy choose the datatype
-print(x.dtype)         # Prints "int64"
+print(x.dtype)         # Prints default "int64"
 
 x = np.array([1.0, 2.0])   # Let numpy choose the datatype
-print(x.dtype)             # Prints "float64"
+print(x.dtype)             # Prints default "float64"
 
-x = np.array([1, 2], dtype=np.int64)   # Force a particular datatype
-print(x.dtype)                         # Prints "int64"
+x = np.array([1, 2], dtype=np.float64) # Force a particular datatype
+print(x.dtype)                         # Prints "float64"
 ```
 
 #### Array math
@@ -443,7 +484,7 @@ print(np.divide(x, y))
 print(np.sqrt(x))
 ```
 
-Inner product: 
+Dot product: 
 ```
 import numpy as np
 
@@ -453,7 +494,7 @@ y = np.array([[5,6],[7,8]])
 v = np.array([9,10])
 w = np.array([11, 12])
 
-# Inner product of vectors; both produce 219
+# Dot product of vectors; both produce 219
 print(v.dot(w))
 print(np.dot(v, w))
 
@@ -495,113 +536,11 @@ print(v)    # Prints "[1 2 3]"
 print(v.T)  # Prints "[1 2 3]"
 ```
 
-### Pandas
-
-[Pandas](https://pandas.pydata.org/) is a Python Library designed by [Wes McKinney](https://en.wikipedia.org/wiki/Wes_McKinney) for data manipulation and data analysis. Pandas basic [data structures](https://en.wikipedia.org/wiki/Data_structure) objects are [1-dimensional Series](https://pandas.pydata.org/docs/reference/api/pandas.Series.html#pandas.Series) and [2-dimensional DataFrame](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html#pandas.DataFrame).
-
-Pandas can read a wide variety of data formats, such as [comma separated values (csv)](https://en.wikipedia.org/wiki/Comma-separated_values), [Microsoft Excel](https://en.wikipedia.org/wiki/Microsoft_Excel) files, [JSON](https://en.wikipedia.org/wiki/JSON), [SQL](https://en.wikipedia.org/wiki/SQL) tables and queries, and more. Pandas is a base tool for [data cleansing](https://en.wikipedia.org/wiki/Data_cleansing) and [data wrangling](https://en.wikipedia.org/wiki/Data_wrangling).
-
-The [Pandas Python Library](https://en.wikipedia.org/wiki/Pandas_(software)) was developed in 2008 by [Wes McKinney](https://en.wikipedia.org/wiki/Wes_McKinney), for performing data manipulation and analysis. Pandas uses data structures and functions for manipulating numerical tables and time series.
-
-As we will see further, Pandas has a set of plotting functions based on Matplotlib, that will help us visualize the analyzed dataframe.
-
-What is a DataFrame?. It is a two-dimensional, size-mutable, potentially heterogeneous tabular data.
-
-![dataframe](https://user-images.githubusercontent.com/97635720/155039557-4ab98001-917a-45ea-b74b-31c057a8a4d0.png)
-
-#### Some basic operations on a Pandas DataFrame _df_.
-
-| Function | Action |
-| :-: | :-- |
-| [`pd.read_csv(filename)`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html?highlight=read_csv) | Reads a CSV (comma separated values) file |
-| [`pd.read_excel(filename)`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html) | Read an Excel file |
-|    | [Reading other file formats](https://pandas.pydata.org/pandas-docs/stable/user_guide/io.html) | 
-| [`pd.to_csv(filename)`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_csv.html?highlight=to_csv) | Write the dataframe to a file |
-| [`df.head()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.head.html)   | Shows the first 5 rows by default. If you wish to print `n` rows use `df.head(n)` |
-| [`df.tail()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.tail.html)   | Shows the last 5 rows by default |
-| [`df.shape`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.shape.html)    | Prints the dataframe dimensions (rows, columns) |
-| [`df.info()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.info.html)   | Prints out dataframe information: number of rows, columns, names, data types, number of non null entries and more |
-| [`df.describe()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html)  | Returns a statistical analysis of float variables |
-| [`df['categorical variable'].describe()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html) | Describes how many they are and how many are different |
-| [`df['categorical variable'].value_counts().head(10)`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.value_counts.html)  | Counts the number of occurrences of each categorial variable and shows the first 10 |
-| [`df.columns`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.columns.html) |  Prints the names of the columns |
-| [`df.columns = ['col1','col2','col3']`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.columns.html) | It names the columns according to list | 
-| [`df.rename(columns={'Old1' : 'New1', 'Old2' : 'New2'}, inplace=True)`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.rename.html) | Renames some of the columns |
-| [`df.drop_duplicates(inplace=True)`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.drop_duplicates.html) | Eliminates repeated rows |
-| [`df.isnull().sum()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.isnull.html) | Returns the sum of missing values in each variable |
-| [`df.dropna()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.dropna.html) | Will eliminate rows having at least one null value |
-| [`df.dropna(axis=1)`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.dropna.html) | Will eliminate columns having at least one null value |
-| [`df.mean()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.mean.html) | Computes the arithmetic mean of the dataframe |
-| [`df.fillna(x_mean, inplace=True)`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.fillna.html) |  Will replace missing values with given mean value |
-| [`df.corr()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.corr.html) | Show the correlation between variables |
-
-### Selecting information from a Pandas DataFrame
-
-| Function | Action |
-| :-: | :-- |
-| ` df['B'] ` | Selects column `'B'` | 
-| ` df[['A','B']] ` | Selects columns `'A'` and `'B'` |
-| ` df_new =  df[['A','B']] ` | Creates a new dataframe `df_new` composed by two selected columns of `df` |
-| ` df['C'] = df['A'] + df['B'] ` |  Creates a new column in `df`, being the sum of columns `'A'` and `'B'` |
-| ` df_copy = df.copy()` | Creates a new dataframe copy of existing `df` |   
-| ` df.drop('D', axis=1, inplace=True)` | Eliminates column `'D'` and redefines `df` |   
-| ` df.loc['2']`  | Returns `df` row with index `'2'` |
-| ` df.loc['2','C']` | Returns the specific value of `df`, with index=`2`, and column=`'C'` |
-| ` df.iloc[2]` |  Returns row with index=`2` | 
-| ` df.loc['2':'4']` | Returns rows with index `'2','3'`, and `'4'` |
-| ` df.iloc[2:4]` | Returns rows with index `'2'` and `'3'`, excludes `'4'` |
-| ` df[df['B'] == 5.0]`   | Selects rows where the condition `df['B']` equals `5.0` |
-| ` df[(df['B'] == 5.0) & (df['D'] <= 2.0)]`  | Selects rows that satisfy both conditions simultaneously | 
-
-The standard operators for comparing two values and conditional clauses. 
-
-| Operators |   |
-| --- | --- |
-| Comparison | ```  '<',   '<=',   '==',   '!=',   '>=',   '>', ``` | 
-| or their wrappers | ``` '.lt()',   '.le()',   'eq()',   '.ne()',   '.ge()',   '.gt()' ```|
-| Conditionals | ` & (and)`,  `\| (or)`  |   
-
-
-#### Reading a `csv` file into Pandas
-
-Let's apply the above functions in an example. We can read a local file or a remote files. 
- 
-```
-# We load the libraries into running memory
-
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-
-``` 
-
-Let's read in _raw form_ or _plain text_ the CSV (comma separated values) _Penguins dataset_ from a Github repository using Pandas. And print the first 5 lines.
-
-```
-# Read the penguins size dataset
-
-filename = "https://raw.githubusercontent.com/clizarraga-UAD7/Datasets/main/penguins/penguins_size.csv"
-
-df = pd.read_csv(filename)
-
-df.head()
-```
-
-Next, we can apply a set of functions to inquiry about the dataframe
-```
-# General information about the dataset
-df.info()
-````
-
-***
-
-
 ### :books: Basic References
 
 * [Python Tutorial](https://docs.python.org/3/tutorial/index.html). Python.org.
 * [Numpy Tutorial](https://numpy.org/doc/stable/user/absolute_beginners.html#). Numpy.org.
 * [SciPy User's Guide](https://docs.scipy.org/doc/scipy/tutorial/index.html#user-guide). SciPy.org.
-* [Getting started with Pandas](https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html). Pydata.org.
 
 #### Cheat Sheets
 * [Jupyter Notebook.](https://www.datacamp.com/cheat-sheet/jupyter-notebook-cheat-sheet) Cheat Sheet. Datacamp.
@@ -611,15 +550,11 @@ df.info()
 * [Importing Data.](https://www.datacamp.com/cheat-sheet/importing-data-in-python-cheat-sheet) Python for Data Science Cheat Sheet. Datacamp.
 * [Numpy. Data Analysis in Python.](https://www.datacamp.com/cheat-sheet/numpy-cheat-sheet-data-analysis-in-python) Cheat Sheet.  Datacamp. 
 * [Numpy.](https://s3.amazonaws.com/dq-blog-files/numpy-cheat-sheet.pdf) Data Science Cheat Sheet. Dataquest.
-* [Pandas.](https://www.datacamp.com/cheat-sheet/pandas-cheat-sheet-for-data-science-in-python) Data Science Cheat Sheet. Datacamp.
-* [Pandas. Data Wrangling in Python.](https://www.datacamp.com/cheat-sheet/pandas-cheat-sheet-data-wrangling-in-python) Cheat Sheet. Datacamp.
-* [Pandas.](https://drive.google.com/file/d/1UHK8wtWbADvHKXFC937IS6MTnlSZC_zB/view) Data Science Cheat Sheet. Dataquest.
 
 #### Free Short Courses.
 * [Introduction to Programming](https://www.kaggle.com/learn/intro-to-programming). Kaggle.com.
 * [Python](https://www.kaggle.com/learn/python). Kaggle.com.
 * [Data Cleaning](https://www.kaggle.com/learn/data-cleaning). Kaggle.com.
-* [Pandas](https://www.kaggle.com/learn/pandas). Kaggle.com.
 
 ***
 
