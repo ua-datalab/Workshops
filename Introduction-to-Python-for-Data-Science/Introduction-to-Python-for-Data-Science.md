@@ -71,7 +71,7 @@ To execute a Code Cell: SHIFT+ENTER _or_ use execute button.
 
 ### Python basics.
 
-Python like any programming language has data types and arithmetic operations.
+Python, like any programming language, has data types and arithmetic operations.
 
 <details closed>
   <summary>:memo: Code Style: Python Programming Best Practices(Click to open)</summary>
@@ -90,13 +90,14 @@ Python like any programming language has data types and arithmetic operations.
 </details>
 
 
-#### Variables
+### Variables
 
 A variable has two parts, a string of characters and numbers (name), and an associated piece of information (value). We use the **assignment operator**  “=” symbol, to assign values to variables in Python. For example, the line `x=5` assigns the value 5 to the variable with name “x”. 
 When we execute this line in Python, this number will be stored into this variable. 
 Until the value is changed or the variable deleted, the character x behaves like the value 5. We can manipulate the variable in many ways, such as perform mathematical operations with it, or print it:
 
 [**Numbers (Integers and Floating)**](https://docs.python.org/3/tutorial/introduction.html#numbers)
+Values assigned to numeric varibles can be used for arithmetic calculations:
 ```
 x = 5          # Define x = 5 as an Integer. 
 print(type(x)) # Prints type "<class 'int'>"
@@ -107,6 +108,7 @@ print(x + 1)   # Addition; prints "6"
 Python automatically classifies the type of variables. Besides floats and integers, we can also create Boolean variables and strings:
 
 **Boolean or logical variables (True, False)**
+Boolean variables can be used when we want to assign truth values to our variables.
 ```
 t = True
 f = False
@@ -130,6 +132,7 @@ print(t != f)  # Logical XOR; prints "True"
 </details>
 
 [**Strings**](https://docs.python.org/3/tutorial/introduction.html#strings)
+We use string for alphanumeric information:
 ```
 hello = 'Hello'    # String literals can use single quotes
 world = "World!"    # or double quotes; it does not matter.
@@ -140,10 +143,6 @@ print(hw)  # prints "Hello World!"
 hw2 = '%s %s %d' % (hello, world, 2)  # sprintf style string formatting
 print(hw2)  # prints "Hello World! 2"
 ```
-
-#### The Python interpreter as a Calculator.
-
-Basic operations are allowed on a command line. 
 
 [**Numbers (Integers and Floating)**](https://docs.python.org/3/tutorial/introduction.html#numbers)
 ```
@@ -184,6 +183,7 @@ Python counting start at 0.
 </details>
 
 [**Lists**](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists)
+A list is created by using the `[]` parenthesis.
 ```
 xs = [1, 2, 3]    # Create a list
 print(xs, xs[2])  # Prints "[1, 2, 3] 3"
@@ -211,11 +211,12 @@ print(nums)               # Prints "[0, 1, 8, 9, 4]"
 
 [**Tuples**](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences)
 
-A tuple is an (immutable) ordered list of values. A tuple is in many ways similar to a list; one of the most important differences is that tuples can be used as keys in dictionaries and as elements of sets, while lists cannot. 
+A tuple is an ordered list of values. It is immutable, i.e, once created, its state cannot be modified. A tuple is in many ways similar to a list. One of the most important differences is that tuples can be used as keys in dictionaries and as elements of sets, while lists cannot. A tuple is created by using the `()` parenthesis.
 
 ```
 d = {(x, x + 1): x for x in range(10)}  # Create a dictionary with tuple keys
 t = (5, 6)        # Create a tuple
+t = 5,            # tuple created due to trailing comma
 print(type(t))    # Prints "<class 'tuple'>"
 print(d[t])       # Prints "5"
 print(d[(1, 2)])  # Prints "1"
@@ -223,7 +224,7 @@ print(d[(1, 2)])  # Prints "1"
 
 [**Sets**](https://docs.python.org/3/tutorial/datastructures.html#sets)
 
-A set is an unordered collection of distinct elements.
+A set is an unordered collection of distinct elements. It is created by enclosing elements in teh `{}` parenthesis.
 
 ```
 animals = {'cat', 'dog'}
@@ -249,14 +250,14 @@ print(d['cat'])       # Get an entry from a dictionary; prints "cute"
 print('cat' in d)     # Check if a dictionary has a given key; prints "True"
 d['fish'] = 'wet'     # Set an entry in a dictionary
 print(d['fish'])      # Prints "wet"
-# print(d['monkey'])  # KeyError: 'monkey' not a key of d
+print(d['monkey'])  # KeyError: 'monkey' not a key of d
 print(d.get('monkey', 'N/A'))  # Get an element with a default; prints "N/A"
 print(d.get('fish', 'N/A'))    # Get an element with a default; prints "wet"
 del d['fish']         # Remove an element from a dictionary
 print(d.get('fish', 'N/A')) # "fish" is no longer a key; prints "N/A"
 mydict.keys()          # creates an object in datatype dict_keys with all keys in the dictionary
-key_list = list(mydict.keys()) #creates a list of keys in the dictionary
-values_list = list(mydict.values()) #creates a list of values in the dictionary
+key_list = list(d.keys()) #creates a list of keys in the dictionary
+values_list = list(d.values()) #creates a list of values in the dictionary
 ```
 
 #### Loops
