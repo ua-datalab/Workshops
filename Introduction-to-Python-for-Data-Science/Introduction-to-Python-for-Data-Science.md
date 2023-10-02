@@ -71,7 +71,7 @@ To execute a Code Cell: SHIFT+ENTER _or_ use execute button.
 
 ### Python basics.
 
-Python like any programming language has data types and arithmetic operations.
+Python, like any programming language, has data types and arithmetic operations.
 
 <details closed>
   <summary>:memo: Code Style: Python Programming Best Practices(Click to open)</summary>
@@ -90,13 +90,14 @@ Python like any programming language has data types and arithmetic operations.
 </details>
 
 
-#### Variables
+### Variables
 
 A variable has two parts, a string of characters and numbers (name), and an associated piece of information (value). We use the **assignment operator**  “=” symbol, to assign values to variables in Python. For example, the line `x=5` assigns the value 5 to the variable with name “x”. 
 When we execute this line in Python, this number will be stored into this variable. 
 Until the value is changed or the variable deleted, the character x behaves like the value 5. We can manipulate the variable in many ways, such as perform mathematical operations with it, or print it:
 
 [**Numbers (Integers and Floating)**](https://docs.python.org/3/tutorial/introduction.html#numbers)
+Values assigned to numeric varibles can be used for arithmetic calculations:
 ```
 x = 5          # Define x = 5 as an Integer. 
 print(type(x)) # Prints type "<class 'int'>"
@@ -107,6 +108,7 @@ print(x + 1)   # Addition; prints "6"
 Python automatically classifies the type of variables. Besides floats and integers, we can also create Boolean variables and strings:
 
 **Boolean or logical variables (True, False)**
+Boolean variables can be used when we want to assign truth values to our variables.
 ```
 t = True
 f = False
@@ -130,6 +132,7 @@ print(t != f)  # Logical XOR; prints "True"
 </details>
 
 [**Strings**](https://docs.python.org/3/tutorial/introduction.html#strings)
+We use string for alphanumeric information:
 ```
 hello = 'Hello'    # String literals can use single quotes
 world = "World!"    # or double quotes; it does not matter.
@@ -140,10 +143,6 @@ print(hw)  # prints "Hello World!"
 hw2 = '%s %s %d' % (hello, world, 2)  # sprintf style string formatting
 print(hw2)  # prints "Hello World! 2"
 ```
-
-#### The Python interpreter as a Calculator.
-
-Basic operations are allowed on a command line. 
 
 [**Numbers (Integers and Floating)**](https://docs.python.org/3/tutorial/introduction.html#numbers)
 ```
