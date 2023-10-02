@@ -171,10 +171,8 @@ For more details, see [this helpful tutorial](https://pythonnumericalmethods.ber
 | Operators |   |
 | --- | --- |
 | Comparison | ```  '<',   '<=',   '==',   '!=',   '>=',   '>', ``` | 
-| or their wrappers | ``` '.lt()',   '.le()',   'eq()',   '.ne()',   '.ge()',   '.gt()' ```|
-| Conditionals | ` & (and)`,  `\| (or)`  |   
-
-
+| or their wrappers | ``` '.__lt__()',   '.__le__()',   '.__eq__()',   '.__ne__()',   '.__ge__()',   '.__gt__()' ```|
+| Conditionals | ``` and, or, not```  |   
 
 #### Data Structures.
 
