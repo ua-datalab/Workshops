@@ -1,4 +1,4 @@
-![ResBaz2022](https://researchbazaar.arizona.edu/img/logos/ResBazAZrectanglelogo-small.png) **RESBAZ TUCSON MAY 23-26, 2022**
+ **UA DATALAB WORKSHOP SERIES, FALL 2023**
 
 ## An Introduction to Python for Data Science
 
@@ -85,10 +85,61 @@ Python like any programming language has data types and arithmetic operations.
 * Use docstrings, that is comments extending several lines to document your code.
 * Use spaces around operators and after commas, but not directly inside bracketing constructs: a = f(1, 2) + g(3, 4).
 * Name your classes and functions consistently; the convention is to use UpperCamelCase for classes and lowercase_with_underscores for functions and methods.
-* Don’t use fancy encodings if your code is meant to be used in international environments. Plain ASCII work best in any case.
+* Special symbols and non-Roman scripts can sometime cause encoding and compatibility issues. Consider using Plain ASCII.
 
 </details>
 
+
+#### Variables
+
+A variable has two parts, a string of characters and numbers (name), and an associated piece of information (value). We use the **assignment operator**  “=” symbol, to assign values to variables in Python. For example, the line `x=5` assigns the value 5 to the variable with name “x”. 
+When we execute this line in Python, this number will be stored into this variable. 
+Until the value is changed or the variable deleted, the character x behaves like the value 5. We can manipulate the variable in many ways, such as perform mathematical operations with it, or print it:
+
+[**Numbers (Integers and Floating)**](https://docs.python.org/3/tutorial/introduction.html#numbers)
+```
+x = 5          # Define x = 5 as an Integer. 
+print(type(x)) # Prints type "<class 'int'>"
+print(x)       # Prints "5"
+print(x + 1)   # Addition; prints "6"
+```
+
+Python automatically classifies the type of variables. Besides floats and integers, we can also create Boolean variables and strings:
+
+**Boolean or logical variables (True, False)**
+```
+t = True
+f = False
+print(type(t)) # Prints "<class 'bool'>"
+print(t and f) # Logical AND; prints "False"
+print(t or f)  # Logical OR; prints "True"
+print(not t)   # Logical NOT; prints "False"
+print(t != f)  # Logical XOR; prints "True"
+```
+<details closed>
+  <summary>:memo: Some details about Boolean values (Click to open)</summary>
+  In order to assign a boolean value to a variable, we can use the words `True` or `False` after the assignment operator (note the capitalization).
+  
+  `True` and `False` behave similar to integers like 1 and 0. It’s possible to assign a Boolean value to variables, but cannot use `True` as a variable name.
+```
+  False = 5
+    File "<stdin>", line 1
+    SyntaxError: cannot assign to False
+```
+
+</details>
+
+[**Strings**](https://docs.python.org/3/tutorial/introduction.html#strings)
+```
+hello = 'Hello'    # String literals can use single quotes
+world = "World!"    # or double quotes; it does not matter.
+print(hello)       # Prints "Hello"
+print(len(hello))  # String length; prints "5"
+hw = hello + ' ' + world  # String concatenation
+print(hw)  # prints "Hello World!"
+hw2 = '%s %s %d' % (hello, world, 2)  # sprintf style string formatting
+print(hw2)  # prints "Hello World! 2"
+```
 
 #### The Python interpreter as a Calculator.
 
@@ -113,30 +164,8 @@ y = 5/2   # Automatically defines y = 2.5 as a floating or real number.
 print(type(y)) # Prints "<class 'float'>"
 print(y, y + 1, y * 2, y ** 2) # Prints "2.5 3.5 5.0 6.25"
 ```
-Python automatically classifies the type of variables. 
 
-**Boolean or logical variables (True, False)**
-```
-t = True
-f = False
-print(type(t)) # Prints "<class 'bool'>"
-print(t and f) # Logical AND; prints "False"
-print(t or f)  # Logical OR; prints "True"
-print(not t)   # Logical NOT; prints "False"
-print(t != f)  # Logical XOR; prints "True"
-```
-
-[**Strings**](https://docs.python.org/3/tutorial/introduction.html#strings)
-```
-hello = 'Hello'    # String literals can use single quotes
-world = "World!"    # or double quotes; it does not matter.
-print(hello)       # Prints "Hello"
-print(len(hello))  # String length; prints "5"
-hw = hello + ' ' + world  # String concatenation
-print(hw)  # prints "Hello World!"
-hw2 = '%s %s %d' % (hello, world, 2)  # sprintf style string formatting
-print(hw2)  # prints "Hello World! 2"
-```
+For more details, see [this helpful tutorial](https://pythonnumericalmethods.berkeley.edu/notebooks/chapter02.01-Variables-and-Assignment.html).
 
 #### Data Structures.
 
@@ -173,20 +202,6 @@ nums[2:4] = [8, 9]        # Assign a new sublist to a slice
 print(nums)               # Prints "[0, 1, 8, 9, 4]"
 ```
 
-You can **loop** over the elements of a list.
-
-```
-animals = ['cat', 'dog', 'monkey']
-for animal in animals:
-    print(animal)
-# Prints "cat", "dog", "monkey", each on its own line.
-
-nums = [0, 1, 2, 3, 4]
-squares = [x ** 2 for x in nums]
-print(squares)   # Prints [0, 1, 4, 9, 16]
-```
-
-
 [**Tuples**](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences)
 
 A tuple is an (immutable) ordered list of values. A tuple is in many ways similar to a list; one of the most important differences is that tuples can be used as keys in dictionaries and as elements of sets, while lists cannot. 
@@ -219,7 +234,8 @@ print(len(animals))       # Prints "2"
 
 [**Dictionaries**](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)
 
-A dictionary stores (key, value) pairs.
+A dictionary stores (key, value) pairs. In a list, we call an item by using its index or position. While using dictionaries, we use a pair's key in order to call the value:
+
 ```
 d = {'cat': 'cute', 'dog': 'furry'}  # Create a new dictionary with some data
 print(d['cat'])       # Get an entry from a dictionary; prints "cute"
@@ -233,6 +249,23 @@ del d['fish']         # Remove an element from a dictionary
 print(d.get('fish', 'N/A')) # "fish" is no longer a key; prints "N/A"
 ```
 
+#### Loops
+
+In Python, objects like lists, tuples and dictionaries provide a stream of items that can be used one after th other, automatically. 
+We can **loop** over the elements of any such **iterable object**, in order to generate multiple, automatic outputs.
+
+Ex. a **for** loop for a list, that will run as many times as there are objects in the list:
+
+```
+animals = ['cat', 'dog', 'monkey']
+for animal in animals:
+    print(animal)
+# Prints "cat", "dog", "monkey", each on its own line.
+
+nums = [0, 1, 2, 3, 4]
+squares = [x ** 2 for x in nums]
+print(squares)   # Prints [0, 1, 4, 9, 16]
+```
 Loop or iterate over the keys in a dictionary.
 ```
 d = {'person': 2, 'cat': 4, 'spider': 8}
@@ -241,35 +274,7 @@ for animal in d:
     print('A %s has %d legs' % (animal, legs))
 # Prints "A person has 2 legs", "A cat has 4 legs", "A spider has 8 legs"
 ```
-
-#### Functions
-
-[**Python functions**](https://docs.python.org/3/tutorial/controlflow.html#defining-functions) are defined using the `def` keyword
-```
-def sign(x):
-    if x > 0:
-        return 'positive'
-    elif x < 0:
-        return 'negative'
-    else:
-        return 'zero'
-
-for x in [-1, 0, 1]:
-    print(sign(x))
-# Prints "negative", "zero", "positive"
-```
-
-Functions can take optional argument value
-```
-def hello(name, loud=False):
-    if loud:
-        print('HELLO, %s!' % name.upper())
-    else:
-        print('Hello, %s' % name)
-
-hello('Bob') # Prints "Hello, Bob"
-hello('Fred', loud=True)  # Prints "HELLO, FRED!"
-```
+[**Python loops**]([https://docs.python.org/3/tutorial/controlflow.html#defining-functions](https://wiki.python.org/moin/ForLoop))
 
 ***
 
