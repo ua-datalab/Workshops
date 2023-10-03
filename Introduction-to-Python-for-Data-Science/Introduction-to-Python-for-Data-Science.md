@@ -45,6 +45,10 @@ There are several options for working with Python.
 * There is a [Command-Line Interface](https://en.wikipedia.org/wiki/Command-line_interface) for a [command shell](https://en.wikipedia.org/wiki/Shell_(computing)) Python named [iPython (interactive Python)](https://en.wikipedia.org/wiki/IPython).
 * There are [GUI (graphical user interface)](https://en.wikipedia.org/wiki/Graphical_user_interface) options like the web-based [Jupyter Lab / Jupyter Notebooks](https://jupyter.org) or [Spyder](https://www.spyder-ide.org).
 
+For our workshops we will be using Jupyter Notebooks run on Google Colab.
+
+Slides: https://docs.google.com/presentation/d/1TKrgqGFTiptUi-tbNtwG-rHS1UsYPPSqXdEZdlRFgU0/edit?usp=sharing
+
 ### Working in Python.
 
 There are two options for working in Python. Offline and Cloud-based platforms. 
