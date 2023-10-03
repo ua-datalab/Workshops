@@ -93,8 +93,9 @@ Python, like any programming language, has data types and arithmetic operations.
 
 </details>
 
+### Using, storing and accessing data with Python
 
-### Variables
+#### Variables.
 
 A variable has two parts, a string of characters and numbers (name), and an associated piece of information (value). We use the **assignment operator**  “=” symbol, to assign values to variables in Python. For example, the line `x=5` assigns the value 5 to the variable with name “x”. 
 When we execute this line in Python, this number will be stored into this variable. 
@@ -170,14 +171,22 @@ print(y, y + 1, y * 2, y ** 2) # Prints "2.5 3.5 5.0 6.25"
 
 For more details, see [this helpful tutorial](https://pythonnumericalmethods.berkeley.edu/notebooks/chapter02.01-Variables-and-Assignment.html).
 
-#### Operators in Python
+### Operators in Python
+
+In order to structure queries we need operators. Python offers many conditional and comparison operators:
+
+
 | Operators |   |
 | --- | --- |
 | Comparison | ```  '<',   '<=',   '==',   '!=',   '>=',   '>', ``` | 
 | or their wrappers | ``` '.__lt__()',   '.__le__()',   '.__eq__()',   '.__ne__()',   '.__ge__()',   '.__gt__()' ```|
-| Conditionals | ``` and, or, not```  |   
+| Conditionals | ``` and, or, not```  |
+| Arithmetic | ```  '+',   '-',   '*',   '/',   '%'(modulus),   '**' ``` |
+| Identity | ``` 'is', 'is not'```  |
+| Membership | ``` 'in', 'not in'```  |
 
-#### Data Structures.
+
+### Data Structures.
 
 By default Python has several objects to store data: lists, dictionaries, sets, and tuples.
 
