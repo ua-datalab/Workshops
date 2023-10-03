@@ -186,7 +186,7 @@ In order to structure queries we need operators. Python offers many conditional 
 | Membership | ``` 'in', 'not in'```  |
 
 
-### Data Structures.
+#### Data Structures.
 
 By default Python has several objects to store data: lists, dictionaries, sets, and tuples.
 
@@ -273,7 +273,7 @@ key_list = list(d.keys()) #creates a list of keys in the dictionary
 values_list = list(d.values()) #creates a list of values in the dictionary
 ```
 
-#### Loops
+#### Iteration and Loops
 
 In Python, objects like lists, tuples and dictionaries provide a stream of items that can be used one after th other, automatically. 
 We can **loop** over the elements of any such **iterable object**, in order to generate multiple, automatic outputs.
@@ -330,9 +330,9 @@ for key, value in d.items():
 
 ***
 
-### Numpy
+### Advanced operations with Numpy
 
-[Numpy](http://www.numpy.org/) is the core library for scientific computing in Python. It provides a high-performance multidimensional array object, and tools for working with these arrays. 
+[Numpy](http://www.numpy.org/) is the core library for scientific computing in Python. It provides a high-performance multidimensional array object, and tools for working with these arrays. Numpy adds a great deal of functionality and gives us a bigger toolset for working with our data.
 
 [Numpy](https://numpy.org/doc/stable/reference/index.html#reference) includes a large collection of mathematical defined functions. 
 * [Basic Mathematical Functions](https://numpy.org/doc/stable/reference/routines.math.html)
