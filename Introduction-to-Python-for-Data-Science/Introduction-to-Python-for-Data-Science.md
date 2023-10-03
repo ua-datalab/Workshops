@@ -68,7 +68,7 @@ Start your [_Google Colab_ session](https://colab.research.google.com/) login in
 
 <details closed>
   <summary>:memo: Note (Click to open)</summary>
-To execute a Code Cell: SHIFT+ENTER _or_ use execute button.
+To execute a Code Cell: SHIFT+ENTER <i>or</i> use execute button.
 </details>
 
 ***
