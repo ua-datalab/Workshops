@@ -1,1 +1,1 @@
-
+This is the first workshop in the series **"Unlocking the Power of Data: A Journey Through Machine Learning & Deep Learning"**. This introduction covers basic Python data types and structors, operators, conditionals and a brief look at Numpy.
