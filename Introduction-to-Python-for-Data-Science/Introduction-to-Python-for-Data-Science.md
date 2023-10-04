@@ -45,6 +45,10 @@ There are several options for working with Python.
 * There is a [Command-Line Interface](https://en.wikipedia.org/wiki/Command-line_interface) for a [command shell](https://en.wikipedia.org/wiki/Shell_(computing)) Python named [iPython (interactive Python)](https://en.wikipedia.org/wiki/IPython).
 * There are [GUI (graphical user interface)](https://en.wikipedia.org/wiki/Graphical_user_interface) options like the web-based [Jupyter Lab / Jupyter Notebooks](https://jupyter.org) or [Spyder](https://www.spyder-ide.org).
 
+For our workshops we will be using Jupyter Notebooks run on Google Colab.
+
+Slides: https://docs.google.com/presentation/d/1TKrgqGFTiptUi-tbNtwG-rHS1UsYPPSqXdEZdlRFgU0/edit?usp=sharing
+
 ### Working in Python.
 
 There are two options for working in Python. Offline and Cloud-based platforms. 
@@ -64,7 +68,7 @@ Start your [_Google Colab_ session](https://colab.research.google.com/) login in
 
 <details closed>
   <summary>:memo: Note (Click to open)</summary>
-To execute a Code Cell: SHIFT+ENTER _or_ use execute button.
+To execute a Code Cell: SHIFT+ENTER <i>or</i> use execute button.
 </details>
 
 ***
@@ -89,8 +93,9 @@ Python, like any programming language, has data types and arithmetic operations.
 
 </details>
 
+### Using, storing and accessing data with Python
 
-### Variables
+#### Variables.
 
 A variable has two parts, a string of characters and numbers (name), and an associated piece of information (value). We use the **assignment operator**  “=” symbol, to assign values to variables in Python. For example, the line `x=5` assigns the value 5 to the variable with name “x”. 
 When we execute this line in Python, this number will be stored into this variable. 
@@ -166,12 +171,20 @@ print(y, y + 1, y * 2, y ** 2) # Prints "2.5 3.5 5.0 6.25"
 
 For more details, see [this helpful tutorial](https://pythonnumericalmethods.berkeley.edu/notebooks/chapter02.01-Variables-and-Assignment.html).
 
-#### Operators in Python
+### Operators in Python
+
+In order to structure queries we need operators. Python offers many conditional and comparison operators:
+
+
 | Operators |   |
 | --- | --- |
 | Comparison | ```  '<',   '<=',   '==',   '!=',   '>=',   '>', ``` | 
 | or their wrappers | ``` '.__lt__()',   '.__le__()',   '.__eq__()',   '.__ne__()',   '.__ge__()',   '.__gt__()' ```|
-| Conditionals | ``` and, or, not```  |   
+| Conditionals | ``` and, or, not```  |
+| Arithmetic | ```  '+',   '-',   '*',   '/',   '%'(modulus),   '**' ``` |
+| Identity | ``` 'is', 'is not'```  |
+| Membership | ``` 'in', 'not in'```  |
+
 
 #### Data Structures.
 
@@ -260,7 +273,7 @@ key_list = list(d.keys()) #creates a list of keys in the dictionary
 values_list = list(d.values()) #creates a list of values in the dictionary
 ```
 
-#### Loops
+#### Iteration and Loops
 
 In Python, objects like lists, tuples and dictionaries provide a stream of items that can be used one after th other, automatically. 
 We can **loop** over the elements of any such **iterable object**, in order to generate multiple, automatic outputs.
@@ -317,9 +330,9 @@ for key, value in d.items():
 
 ***
 
-### Numpy
+### Advanced operations with Numpy
 
-[Numpy](http://www.numpy.org/) is the core library for scientific computing in Python. It provides a high-performance multidimensional array object, and tools for working with these arrays. 
+[Numpy](http://www.numpy.org/) is the core library for scientific computing in Python. It provides a high-performance multidimensional array object, and tools for working with these arrays. Numpy adds a great deal of functionality and gives us a bigger toolset for working with our data.
 
 [Numpy](https://numpy.org/doc/stable/reference/index.html#reference) includes a large collection of mathematical defined functions. 
 * [Basic Mathematical Functions](https://numpy.org/doc/stable/reference/routines.math.html)
