@@ -6,3 +6,4 @@ Link to Wiki: [https://github.com/ua-datalab/Workshops/wiki/Machine-Learning-Bas
 
 Other Notebooks referencing in the workshop today:
 - ML for Beginners: https://github.com/clizarraga-UAD7/Notebooks/blob/main/machine_learning_algorithms_for_beginners.ipynb
+- ML Classification: https://github.com/clizarraga-UAD7/Notebooks/blob/main/ML_Classification.ipynb
