@@ -1,4 +1,4 @@
-Elements of the Statistical Inference
+# Elements of the Statistical Inference
 
 This is the third workshop in the series “Unlocking the Power of Data: A Journey Through Machine Learning & Deep Learning”.
 
