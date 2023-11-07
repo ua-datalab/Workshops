@@ -1,4 +1,4 @@
-# datalab-teaching-timeseries
+# Time Series Forecasting 
 Time Series Forecasting teaching material for data-lab worksop series.
 
 ![Example of financial data forcasting](https://github.com/nextgensh/datalab-teaching-timeseries/blob/bbc3935b1b618e6034261af665ea0fce0f59d75c/figures/lstm_output.png "LSTM output example")
@@ -37,7 +37,7 @@ Linear model comprise of techniques like auto-regression while neural network ba
 # RNN vs Feed-Forward networks
 RNN use information from the previous interation in the current iteration. Loop for the cyclic connections.
 
-![rnn_vs_feedforward](!https://github.com/nextgensh/datalab-teaching-timeseries/blob/bbc3935b1b618e6034261af665ea0fce0f59d75c/figures/feedforward_vs_rnn.png "RNN vs feed foarward")
+![rnn_vs_feedforward](https://github.com/nextgensh/datalab-teaching-timeseries/blob/bbc3935b1b618e6034261af665ea0fce0f59d75c/figures/feedforward_vs_rnn.png "RNN vs feed foarward")
 
 # Annotated LSTM
 
