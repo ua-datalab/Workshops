@@ -1,0 +1,1 @@
+streamlit run /app/streamlit_tutorial/Arizona_Housing_Pricing.py streamlit_tutorial/ --server.enableCORS false --server.enableXsrfProtection false
