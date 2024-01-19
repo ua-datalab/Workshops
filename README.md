@@ -12,13 +12,13 @@ This workshop provides graduate students with the necessary skills for their Ph.
 * Zoom: https://arizona.zoom.us/j/86423223879
 * Qualtrics Registration: https://uarizona.co1.qualtrics.com/jfe/form/SV_9TDHtSJnP6d32gS
  
-| Date |  Topic | Instructor | Helper |
-| :--: | :--: | :--: | :--: |
-|   01/16  |  Introduction to Jupyter Notebooks | Carlos | Jeff, Megh
-| 01/23 |  Data Wrangling 101: Pandas in Action | Brenda | Carlos
-|  01/30   | A Probability & Statistics refresher  | | Jeff
-| 02/06 | A Probability & Statistics refresher  | | Jeff
-| 02/13 |  Data Visualization Libraries: Matplotlib | | Jeff
+| Date |  Topic | 
+| :--: | :--: | 
+|   01/16  |  Introduction to Jupyter Notebooks | 
+| 01/23 |  Data Wrangling 101: Pandas in Action | 
+|  01/30   | A Probability & Statistics refresher  |
+| 02/06 | A Probability & Statistics refresher  | 
+| 02/13 |  Data Visualization Libraries: Matplotlib | 
 |    02/20 | Data Visualization Libraries: Seaborn | 
 |   02/27  | Exploratory Data Analysis   | 
 |   03/05 |   **Spring break** | 
