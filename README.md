@@ -1,3 +1,9 @@
+## University of Arizona DataLab.
+
+
+<p style="text-align:center;">
+<img src="https://github.com/clizarraga-UAD7/DataScienceLab/blob/main/images/UADLSquareLogo.png?raw=true" width=200>
+</p>
 
 ### Intro to Data Science...
 
