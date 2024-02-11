@@ -1,22 +1,32 @@
-## University of Arizona DataLab.
-
 
 <p style="text-align:center;">
 <img src="https://github.com/clizarraga-UAD7/DataScienceLab/blob/main/images/UADLSquareLogo.png?raw=true" width=200>
 </p>
 
-### Intro to Data Science...
+# UArizona Data Lab Workshops - Spring 2024
+
+## Introduction to Data Science
 
 ### Data Science Essentials: From Jupyter to AI Tools
 
 #### Notes in the [Wiki](https://github.com/ua-datalab/Workshops/wiki).
 
-This workshop provides graduate students with the necessary skills for their Ph.D. research in data science. Sessions cover topics such as data wrangling, statistics, visualization, exploratory data analysis, time series analysis, machine learning, natural language processing, deep learning, prompt engineering, and AI tools. Join us to enhance your research capabilities and take your Ph.D. to the next level.
+Do you find yourself encountering data science tools that your research needs, but are unsure how to get started? Curious about the latest tools for organizing, visualizing and understanding your dataset? Are you looking for a better theoretical understanding of key concepts in statistical analysis? 
 
-* [Repo](https://github.com/ua-datalab/Workshops)
-* Tuesdays at 3PM: Weaver Science and Engineering Library Rm 212
-* Zoom: https://arizona.zoom.us/j/86423223879
-* Qualtrics Registration: https://uarizona.co1.qualtrics.com/jfe/form/SV_9TDHtSJnP6d32gS
+Join us for this beginner-friendly, concept-focused, and practical introduction to the theory and practice of data science, from start to finish! Sessions cover topics such as data wrangling, statistics, visualization, exploratory data analysis, time series analysis, machine learning, natural language processing, deep learning, prompt engineering, and AI tools. 
+Enhance your capabilities and take your data science research to the next level!
+
+***
+
+**RESOURCES AND NOTES:**
+
+* [REGISTRATION](https://uarizona.co1.qualtrics.com/jfe/form/SV_9TDHtSJnP6d32gS)
+* [Data Science Essentials: From Jupyter to AI Tools](https://github.com/ua-datalab/Workshops)
+* We meet on Tuesdays at 3 PM in Weaver Science and Engineering Library Rm 212
+* Zoom: [https://arizona.zoom.us/j/86423223879](https://arizona.zoom.us/j/86423223879)
+* There will be no workshop during Spring Break week.
+* Content schedule and content are subject to change. 
+
  
 | Date |  Topic | 
 | :--: | :--: | 
@@ -38,7 +48,7 @@ This workshop provides graduate students with the necessary skills for their Ph.
 
 ***
 
-Updated: 01/19/2024 (C. Lizárraga)
+Updated: 02/11/2024 (C. Lizárraga)
 
 [UArizona Data Lab](https://www.datascience.arizona.edu/education/uarizona-data-lab), Data Science Institute, University of Arizona.
 
