@@ -43,8 +43,8 @@ Enhance your capabilities and take your data science research to the next level!
 | 03/26 | [Machine Learning with Scikit-Learn](https://github.com/ua-datalab/Workshops/tree/main/Machine_Learning_Basics_Scikit_learn_Unveiled) | 
 | 04/02 | [Natural Language Processing](https://github.com/ua-datalab/Workshops/tree/main/Natural_Language_Processing_Text_Mining_and_Sentiment_Analysis) | 
 | 04/09 |   [Deep Learning](https://github.com/ua-datalab/Workshops/tree/main/Deep_Dive_Into_Deep_Learning) | 
-| 04/16 |   [Prompt Engineering]() | 
-| 04/23 |   [AI Tools Landscape]() | 
+| 04/16 |   [Prompt Engineering](https://github.com/ua-datalab/Workshops/wiki/Prompt-Engineering-Basics) | 
+| 04/23 |   [AI Tools Landscape](https://github.com/ua-datalab/Workshops/wiki/AI-Tools-Landscape) | 
 
 ***
 
