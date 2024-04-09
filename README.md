@@ -30,21 +30,21 @@ Enhance your capabilities and take your data science research to the next level!
  
 | Date |  Topic | 
 | :--: | :--: | 
-|   01/16  |  Introduction to Jupyter Notebooks | 
-| 01/23 |  Data Wrangling 101: Pandas in Action | 
-|  01/30   | A Probability & Statistics refresher  |
-| 02/06 | A Probability & Statistics refresher  | 
-| 02/13 |  Data Visualization Libraries: Matplotlib | 
-|    02/20 | Data Visualization Libraries: Seaborn | 
-|   02/27  | Exploratory Data Analysis   | 
-|   03/05 |   **Spring break** | 
-|    03/12 |   Time Series Analysis   | 
-|    03/19 |  Time Series Forecasting   | 
-|    03/26 | Machine Learning with Scikit-Learn   | 
-|   04/02  | Natural Language Processing   | 
-|    04/09 |   Deep Learning  | 
-|   04/16  |   Prompt Engineering | 
-|    04/23 |   AI Tools Landscape | 
+| 01/16 |  [Introduction to Jupyter Notebooks](https://github.com/ua-datalab/Workshops/tree/main/Jupyter_Notebooks) | 
+| 01/23 | [Data Wrangling 101: Pandas in Action](https://github.com/ua-datalab/Workshops/tree/main/Data_Wrangling_101_Pandas_in_Action) | 
+| 01/30 | [A Probability & Statistics refresher](https://github.com/ua-datalab/Workshops/tree/main/Statistical_Inference) |
+| 02/06 | [A Probability & Statistics refresher](https://github.com/ua-datalab/Workshops/tree/main/Statistical_Inference) | 
+| 02/13 |  [Data Visualization Libraries: Matplotlib](https://github.com/ua-datalab/Workshops/tree/main/Data_Visualization_Libraries_in_Python) | 
+| 02/20 | [Data Visualization Libraries: Seaborn](https://github.com/ua-datalab/Workshops/tree/main/Data_Visualization_Libraries_in_Python) | 
+| 02/27 | [Exploratory Data Analysis](https://github.com/ua-datalab/Workshops/tree/main/Exploratory_Data_Analysis) | 
+| 03/05 |   **Spring break** | 
+| 03/12 |   [Time Series Analysis](https://github.com/ua-datalab/Workshops/tree/main/Time_Series_Forecasting) | 
+| 03/19 |  [Time Series Forecasting](https://github.com/ua-datalab/Workshops/tree/main/Time_Series_Forecasting) | 
+| 03/26 | [Machine Learning with Scikit-Learn](https://github.com/ua-datalab/Workshops/tree/main/Machine_Learning_Basics_Scikit_learn_Unveiled) | 
+| 04/02 | [Natural Language Processing](https://github.com/ua-datalab/Workshops/tree/main/Natural_Language_Processing_Text_Mining_and_Sentiment_Analysis) | 
+| 04/09 |   [Deep Learning](https://github.com/ua-datalab/Workshops/tree/main/Deep_Dive_Into_Deep_Learning) | 
+| 04/16 |   [Prompt Engineering]() | 
+| 04/23 |   [AI Tools Landscape]() | 
 
 ***
 
