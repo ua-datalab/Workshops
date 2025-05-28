@@ -11,12 +11,12 @@
 
 **RESOURCES AND NOTES:**
 
-* Register to join in person or via Zoom.
-* When: Tuesdays @ 1 PM
-* Where: Weaver Science and Engineering Library, Room 212.
-* Zoom: 
+* **Register** to join in person or via Zoom.
+* **When:** Tuesdays @ 2 PM
+* **Where:** Weaver Science and Engineering Library, Room 212.
+* **Zoom:** 
 
-Content schedule and content are subject to change.
+_Content schedule and content are subject to change_.
 
 ### Fall 2025
 **Instructor: Carlos Lizárraga**
@@ -24,26 +24,16 @@ Content schedule and content are subject to change.
 ***
 | Date |  Session Title | Description | Materials | Code | YouTube |
 | :--: | :-- | :-- | :-- | :-- | :-- |
-| | **Session 1: Python Kickstart for Data Analysts 🐍** | 
-Python fundamentals, setting up the environment, and basic syntax essential for data tasks. | | | |
-| | **Session 2: Data Wrangling with Pandas & NumPy 🐼** |
-    Mastering data manipulation and cleaning using Python's core data science libraries. | | | |
-| | **Session 3: Visualizing Insights: Matplotlib & Seaborn 📊** |
-    Creating impactful data visualizations to uncover patterns and communicate findings. | | | |
-| | **Session 4: Unveiling Stories: Exploratory Data Analysis (EDA) Techniques 🔍** | 
-    Applying statistical and visual techniques to explore datasets and generate hypotheses. | | | |
-| |  **Session 5: AI & Machine Learning Demystified: Core Concepts 🤖** | 
-    Understanding fundamental AI and ML concepts, terminology, and the machine learning workflow. | | | |
-| | **Session 6: Predictive Power: Hands-on Machine Learning with Scikit-learn ⚙️** | 
-    Implementing basic supervised and unsupervised learning models using Scikit-learn. | | | |
-| | **Session 7: Understanding Text: Python for Natural Language Processing (NLP) Basics 📖** | 
-    Introduction to text data processing, feature extraction, and simple NLP tasks. | | | |
-| | **Session 8: AI Augmentation: Using LLMs for Smarter Data Analysis & Code Generation 💡** |
-    Exploring how Large Language Models (LLMs) can assist in data cleaning, generating insights, and even writing Python code for analysis. | | | |
-| | **Session 9: Capstone Project: Building an End-to-End AI Data Analysis Pipeline 🧩** |
-    Integrating skills from previous sessions to complete a mini-project, from data ingestion to insight generation with an AI component. | | | |
-| | **Session 10: The AI Horizon: Advanced Techniques, Ethics, and Future of Data Analysis 🚀** |
-    Discussing advanced AI topics (e.g., deep learning basics, model interpretability), ethical considerations in AI for data analysis, and emerging trends. | | | |
+| 08/26| **Session 1: Python Kickstart for Data Analysts 🐍** | Python fundamentals, setting up the environment, and basic syntax essential for data tasks. | | | |
+| 09/02 | **Session 2: Data Wrangling with Pandas & NumPy 🐼** | Mastering data manipulation and cleaning using Python's core data science libraries. | | | |
+| 09/09 | **Session 3: Visualizing Insights: Matplotlib & Seaborn 📊** | Creating impactful data visualizations to uncover patterns and communicate findings. | | | |
+| 09/16| **Session 4: Unveiling Stories: Exploratory Data Analysis (EDA) Techniques 🔍** | Applying statistical and visual techniques to explore datasets and generate hypotheses. | | | |
+| 09/23 |  **Session 5: AI & Machine Learning Demystified: Core Concepts 🤖** |  Understanding fundamental AI and ML concepts, terminology, and the machine learning workflow. | | | |
+| 09/30 | **Session 6: Predictive Power: Hands-on Machine Learning with Scikit-learn ⚙️** | Implementing basic supervised and unsupervised learning models using Scikit-learn. | | | |
+| 10/07 | **Session 7: Understanding Text: Python for Natural Language Processing (NLP) Basics 📖** | Introduction to text data processing, feature extraction, and simple NLP tasks. | | | |
+| 10/14 | **Session 8: AI Augmentation: Using LLMs for Smarter Data Analysis & Code Generation 💡** | Exploring how Large Language Models (LLMs) can assist in data cleaning, generating insights, and even writing Python code for analysis. | | | |
+| 10/21 | **Session 9: Capstone Project: Building an End-to-End AI Data Analysis Pipeline 🧩** | Integrating skills from previous sessions to complete a mini-project, from data ingestion to insight generation with an AI component. | | | |
+| 10/28| **Session 10: The AI Horizon: Advanced Techniques, Ethics, and Future of Data Analysis 🚀** | Discussing advanced AI topics (e.g., deep learning basics, model interpretability), ethical considerations in AI for data analysis, and emerging trends. | | | |
 
 
 
