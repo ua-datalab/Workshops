@@ -3,7 +3,55 @@
 <img src="https://github.com/clizarraga-UAD7/DataScienceLab/blob/main/images/UADLSquareLogo.png?raw=true" width=200>
 </p>
 
-# UArizona Data Lab Workshops - Spring 2024
+# UArizona Data Lab Workshops - Fall 2025
+
+## Introduction to Data Science
+***
+###  Learn Python & AI for Data Analysis: A Practical Workshop
+
+**RESOURCES AND NOTES:**
+
+* Register to join in person or via Zoom.
+* When: Tuesdays @ 1 PM
+* Where: Weaver Science and Engineering Library, Room 212.
+* Zoom: 
+
+Content schedule and content are subject to change.
+
+### Fall 2025
+**Instructor: Carlos Lizárraga**
+
+***
+| Date |  Session Title | Description | Materials | Code | YouTube |
+| :--: | :-- | :-- | :-- | :-- | :-- |
+| | **Session 1: Python Kickstart for Data Analysts 🐍** | 
+Python fundamentals, setting up the environment, and basic syntax essential for data tasks. | | | |
+| | **Session 2: Data Wrangling with Pandas & NumPy 🐼** |
+    Mastering data manipulation and cleaning using Python's core data science libraries. | | | |
+| | **Session 3: Visualizing Insights: Matplotlib & Seaborn 📊** |
+    Creating impactful data visualizations to uncover patterns and communicate findings. | | | |
+| | **Session 4: Unveiling Stories: Exploratory Data Analysis (EDA) Techniques 🔍** | 
+    Applying statistical and visual techniques to explore datasets and generate hypotheses. | | | |
+| |  **Session 5: AI & Machine Learning Demystified: Core Concepts 🤖** | 
+    Understanding fundamental AI and ML concepts, terminology, and the machine learning workflow. | | | |
+| | **Session 6: Predictive Power: Hands-on Machine Learning with Scikit-learn ⚙️** | 
+    Implementing basic supervised and unsupervised learning models using Scikit-learn. | | | |
+| | **Session 7: Understanding Text: Python for Natural Language Processing (NLP) Basics 📖** | 
+    Introduction to text data processing, feature extraction, and simple NLP tasks. | | | |
+| | **Session 8: AI Augmentation: Using LLMs for Smarter Data Analysis & Code Generation 💡** |
+    Exploring how Large Language Models (LLMs) can assist in data cleaning, generating insights, and even writing Python code for analysis. | | | |
+| | **Session 9: Capstone Project: Building an End-to-End AI Data Analysis Pipeline 🧩** |
+    Integrating skills from previous sessions to complete a mini-project, from data ingestion to insight generation with an AI component. | | | |
+| | **Session 10: The AI Horizon: Advanced Techniques, Ethics, and Future of Data Analysis 🚀** |
+    Discussing advanced AI topics (e.g., deep learning basics, model interpretability), ethical considerations in AI for data analysis, and emerging trends. | | | |
+
+
+
+
+
+***
+
+# UArizona Data Lab Workshop - Spring 2024
 
 ## Introduction to Data Science
 
@@ -20,11 +68,7 @@ Enhance your capabilities and take your data science research to the next level!
 
 **RESOURCES AND NOTES:**
 
-* [REGISTRATION](https://uarizona.co1.qualtrics.com/jfe/form/SV_9TDHtSJnP6d32gS)
 * [Data Science Essentials: From Jupyter to AI Tools](https://github.com/ua-datalab/Workshops)
-* We meet on Tuesdays at 3 PM in Weaver Science and Engineering Library Rm 212
-* Zoom: [https://arizona.zoom.us/j/86423223879](https://arizona.zoom.us/j/86423223879)
-* There will be no workshop during Spring Break week.
 * Content schedule and content are subject to change. 
 
  
