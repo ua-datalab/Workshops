@@ -3,7 +3,7 @@
 <img src="https://github.com/clizarraga-UAD7/DataScienceLab/blob/main/images/UADLSquareLogo.png?raw=true" width=200>
 </p>
 
-# UArizona Data Lab Workshops - Fall 2025
+# UArizona Data Lab Workshops - FALL 2025
 
 ## Introduction to Data Science
 ***
@@ -17,8 +17,9 @@ Beyond traditional methods, the workshop delves into the transformative potentia
 The interdisciplinary nature of these skills is emphasized throughout, with examples and use cases drawn from diverse fields such as the natural and social sciences, engineering, humanities, and health sciences. Whether analyzing experimental results, textual corpora, survey data, or sensor outputs, participants will find the acquired skills directly applicable to their research. Furthermore, the workshop will touch upon scientific outreach opportunities, enabling students to better communicate their data-driven findings to broader audiences and contribute to open science initiatives. This practical, self-paced series aims to equip graduate students with the essential toolkit to confidently tackle complex data challenges and enhance their research impact.
 
 #### Basic References 
-* [Python for Data Analysis](https://wesmckinney.com/book/), 3rd Edition. (2023) Wes McKinney.
-* [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/), Jake VanderPlas (O’Reilly), 2016.
+* [Python for Data Analysis](https://wesmckinney.com/book/), 3rd Edition.  Wes McKinney (O’Reilly), 2023.
+* [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/). Jake VanderPlas (O’Reilly), 2016.
+* [Prompt Engineering](https://tyson-swetnam.github.io/intro-gpt/prompts/), Tyson Swetnam, 2025.
 
 #### Learning Goals
 Upon completion of this ten-session workshop series, participants will be able to:
@@ -58,12 +59,9 @@ _**(Content schedule and content are subject to change)**_.
 | 10/28| **Session 10: The AI Horizon: Advanced Techniques, Ethics, and Future of Data Analysis 🚀** | Discussing advanced AI topics (e.g., deep learning basics, model interpretability), ethical considerations in AI for data analysis, and emerging trends. | | | |
 
 
-
-
-
 ***
 
-# UArizona Data Lab Workshop - Spring 2024
+# UArizona Data Lab Workshop - SPRING 2024
 
 ## Introduction to Data Science
 
@@ -104,7 +102,7 @@ Enhance your capabilities and take your data science research to the next level!
 
 ***
 
-Updated: 02/11/2024 (C. Lizárraga)
+Updated: 05/28/2025 (C. Lizárraga)
 
 [UArizona Data Lab](https://www.datascience.arizona.edu/education/uarizona-data-lab), Data Science Institute, University of Arizona.
 
