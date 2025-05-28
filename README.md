@@ -33,10 +33,10 @@ Upon completion of this ten-session workshop series, participants will be able t
 
 **RESOURCES AND NOTES:**
 
-* **Register** to join in person or via Zoom.
+* **Register(?)** to join in person or via Zoom.
 * **When:** Tuesdays @ 2 PM
 * **Where:** Weaver Science and Engineering Library, Room 212.
-* **Zoom:** 
+* **Zoom:(?)** 
 
 _**(Content schedule and content are subject to change)**_.
 
