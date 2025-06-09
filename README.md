@@ -61,9 +61,7 @@ _**(Content schedule and content are subject to change)**_.
 
 ***
 
-# UArizona Data Lab Workshop - SPRING 2024
-
-## Introduction to Data Science
+### UArizona Data Lab Workshop - SPRING 2024
 
 ### Data Science Essentials: From Jupyter to AI Tools
 
