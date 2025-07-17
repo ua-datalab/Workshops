@@ -8,14 +8,18 @@
 
 ## Introduction to Data Science
 ***
-###  Learn Python & AI for Data Analysis: A Practical Workshop
+###  Python and AI-Augmented Data Analysis: Integrating Traditional Methods with Modern Coding Paradigms
 
 #### Description 
+**Proposed Title: "Python and AI-Augmented Data Analysis: Integrating Traditional Methods with Modern Coding Paradigms"**
+
 This ten-session experiential learning workshop is designed for students/staff/postdocs across all disciplines who aim to develop foundational and advanced competencies in data analysis using Python and Artificial Intelligence (AI) tools. In an era where data is pivotal to research and innovation, this series empowers participants to harness the capabilities of Python—a versatile and widely adopted programming language—for effective data manipulation, insightful visualization, and robust statistical analysis (McKinney, 2023; VanderPlas, 2016). The curriculum progressively introduces core data science libraries like Pandas, NumPy, Matplotlib, and Scikit-learn, ensuring a solid understanding of the entire data analysis workflow.
 
-Beyond traditional methods, the workshop delves into the transformative potential of AI, demystifying machine learning concepts and providing hands-on experience with predictive modeling. A unique aspect of this series is the integration of modern AI tools, including an introduction to leveraging Large Language Models (LLMs) to augment analytical tasks, such as data cleaning, insight generation, and even assisting in code development.
+Beyond traditional methods, the workshop delves into the transformative potential of AI, demystifying machine learning concepts and providing hands-on experience with predictive modeling. A unique aspect of this series is the integration of modern AI tools, including an introduction to leveraging Large Language Models (LLMs) to augment analytical tasks, such as data cleaning, insight generation, and code development assistance.
 
-The interdisciplinary nature of these skills is emphasized throughout, with examples and use cases drawn from diverse fields such as the natural and social sciences, engineering, humanities, and health sciences. Whether analyzing experimental results, textual corpora, survey data, or sensor outputs, participants will find the acquired skills directly applicable to their research. Furthermore, the workshop will touch upon scientific outreach opportunities, enabling students to better communicate their data-driven findings to broader audiences and contribute to open science initiatives. This practical, self-paced series aims to equip graduate students with the essential toolkit to confidently tackle complex data challenges and enhance their research impact.
+The workshop incorporates **AI-assisted coding methodologies** as supplemental techniques, demonstrating how participants can leverage language models for enhanced code generation, real-time debugging support, and automated documentation processes. These methods enable accelerated development cycles while maintaining analytical rigor and code quality standards. Additionally, participants will explore **vibe coding approaches**—an emergent programming paradigm that emphasizes natural language interactions with AI systems to facilitate rapid prototyping, intuitive data exploration, and iterative analysis refinement through conversational programming interfaces.
+
+The interdisciplinary nature of these skills is emphasized throughout, with examples and use cases drawn from diverse fields such as the natural and social sciences, engineering, humanities, and health sciences. Whether analyzing experimental results, textual corpora, survey data, or sensor outputs, participants will find the acquired skills directly applicable to their research. Furthermore, the workshop will address scientific outreach opportunities, enabling students to better communicate their data-driven findings to broader audiences and contribute to open science initiatives. This practical, self-paced series aims to equip graduate students with the essential toolkit to confidently tackle complex data challenges and enhance their research impact through the integration of traditional analytical methods with contemporary AI-augmented programming techniques.
 
 #### Basic References 
 * [Python for Data Analysis](https://wesmckinney.com/book/), 3rd Edition.  Wes McKinney (O’Reilly), 2023.
@@ -23,13 +27,20 @@ The interdisciplinary nature of these skills is emphasized throughout, with exam
 * [Prompt Engineering](https://tyson-swetnam.github.io/intro-gpt/prompts/), Tyson Swetnam, 2025.
 
 #### Learning Goals
+
 Upon completion of this ten-session workshop series, participants will be able to:
 
-* **Achieve Foundational Proficiency in Python:** Master Python programming fundamentals relevant to data acquisition, cleaning, manipulation, and transformation using core libraries like Pandas and NumPy.
-* **Develop Data Visualization and EDA Skills:** Create meaningful data visualizations and perform comprehensive Exploratory Data Analysis (EDA) to uncover patterns, anomalies, and insights within datasets using libraries such as Matplotlib and Seaborn.
-* **Understand and Apply Core AI/ML Concepts:** Grasp the fundamental principles of Artificial Intelligence and Machine Learning, and implement basic supervised and unsupervised learning models using Scikit-learn for predictive tasks.
-* **Integrate AI Tools for Enhanced Analysis:** Learn to utilize emerging AI tools, including an introduction to Large Language Models (LLMs), to assist and augment various stages of the data analysis workflow, from data preparation to insight generation and code assistance.
-* **Execute End-to-End Data Analysis Projects:** Design and implement a complete data analysis project, demonstrating the ability to integrate Python scripting, data processing, machine learning, and AI-assisted techniques to address a defined problem and communicate results effectively.
+* **Achieve Foundational Proficiency in Python:** Master Python programming fundamentals relevant to data acquisition, cleaning, manipulation, and transformation using core libraries like Pandas and NumPy, while incorporating AI-assisted coding techniques for enhanced development efficiency and code optimization.
+
+* **Develop Data Visualization and EDA Skills:** Create meaningful data visualizations and perform comprehensive Exploratory Data Analysis (EDA) to uncover patterns, anomalies, and insights within datasets using libraries such as Matplotlib and Seaborn, supplemented by vibe coding approaches for rapid prototyping and iterative visualization refinement.
+
+* **Understand and Apply Core AI/ML Concepts:** Grasp the fundamental principles of Artificial Intelligence and Machine Learning, and implement basic supervised and unsupervised learning models using Scikit-learn for predictive tasks, while leveraging AI-assisted methodologies for model selection, hyperparameter tuning, and performance evaluation.
+
+* **Integrate AI Tools for Enhanced Analysis:** Learn to utilize emerging AI tools, including Large Language Models (LLMs), to assist and augment various stages of the data analysis workflow, from data preparation to insight generation and code assistance, demonstrating proficiency in both traditional programming paradigms and modern AI-augmented development approaches.
+
+* **Master Contemporary Coding Paradigms:** Demonstrate competency in AI-assisted coding techniques for automated code generation, debugging, and documentation, while applying vibe coding methodologies to facilitate natural language-driven data exploration and analysis through conversational programming interfaces.
+
+* **Execute End-to-End Data Analysis Projects:** Design and implement a complete data analysis project, demonstrating the ability to integrate Python scripting, data processing, machine learning, and AI-assisted techniques to address a defined problem and communicate results effectively, utilizing both conventional analytical methods and modern AI-augmented workflows.
 
 ***
 
