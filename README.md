@@ -4,14 +4,11 @@
 <img src="https://github.com/clizarraga-UAD7/DataScienceLab/blob/main/images/UADLSquareLogo.png?raw=true" width=100>
 </p>
 
-# UArizona Data Lab Workshops - FALL 2025
+# Introduction to Data Science - Fall 2025
 
-## Introduction to Data Science
-***
 ###  Python and AI-Augmented Data Analysis: Integrating Traditional Methods with Modern Coding Paradigms
 
 #### Description 
-**Proposed Title: "Python and AI-Augmented Data Analysis: Integrating Traditional Methods with Modern Coding Paradigms"**
 
 This ten-session experiential learning workshop is designed for students/staff/postdocs across all disciplines who aim to develop foundational and advanced competencies in data analysis using Python and Artificial Intelligence (AI) tools. In an era where data is pivotal to research and innovation, this series empowers participants to harness the capabilities of Python—a versatile and widely adopted programming language—for effective data manipulation, insightful visualization, and robust statistical analysis (McKinney, 2023; VanderPlas, 2016). The curriculum progressively introduces core data science libraries like Pandas, NumPy, Matplotlib, and Scikit-learn, ensuring a solid understanding of the entire data analysis workflow.
 
