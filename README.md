@@ -1,10 +1,12 @@
 [:arrow_left: **Back to UArizona DataLab Learning Resources**](https://ua-datalab.github.io/)
 
 <p style="text-align:center;">
-<img src="https://github.com/clizarraga-UAD7/DataScienceLab/blob/main/images/UADLSquareLogo.png?raw=true" width=100>
+<img src="https://images.unsplash.com/photo-1690683790356-c1edb75e3df7?q=80&w=2109&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width=900>
 </p>
 
-# Introduction to Data Science - Fall 2025
+(Image credit: [Brecht Corbeel](https://unsplash.com/@brechtcorbeel). Unsplash.com)
+
+# Python & AI for Data Analysis - Fall 2025
 
 ###  Python and AI-Augmented Data Analysis: Integrating Traditional Methods with Modern Coding Paradigms
 
