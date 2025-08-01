@@ -121,4 +121,4 @@ Created: 06/11/2024 (C. Lizárraga) <br> Updated: 06/09/2025 (C. Lizárraga)
 
 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png" width="128"></a>
 
-[<img src="https://datascience.arizona.edu/sites/default/files/Data%20Science%20Institute_Webheader%20%281%29.svg" width="256">](https://datascience.arizona.edu)
+[<img src="https://www.datascience.arizona.edu/sites/default/files/datascience-logo_0.png" width="256">](https://datascience.arizona.edu)
