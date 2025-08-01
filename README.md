@@ -109,7 +109,6 @@ Enhance your capabilities and take your data science research to the next level!
 | 04/16 |   [Prompt Engineering](https://github.com/ua-datalab/Workshops/wiki/Prompt-Engineering-Basics) | 
 | 04/23 |   [AI Tools Landscape](https://github.com/ua-datalab/Workshops/wiki/AI-Tools-Landscape) | 
 
-***
 
 ***
 
